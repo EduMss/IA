@@ -18,18 +18,22 @@ Exportar todas as dependencias instaladas:
 
 ```
 pip freeze > requeriments.txt
-
 ```
+
 <br>
 Executar a api:
+
 ```
 uvicorn main:app --reload
 ```
+
 <br>
 
 requisição via curl:
 
+```
 curl -X GET http://127.0.0.1:8000
+```
 
 <br>
 
