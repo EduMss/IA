@@ -62,14 +62,14 @@ pip install ollama
 ```
 <br>
 Nova requisição curl:
-```
+
 curl -X POST http://127.0.0.1:8000 -H "Content-Type: application/json" -d "{\"text\":\"what's 6 + 3 ?\"}"
-```
+
 <br>
 Nova requisição curl calculando o tempo de resposta:
-```
+
 curl -w "Tempo Total: %{time_total} segundos\n" -X POST http://127.0.0.1:8000 -H "Content-Type: application/json" -d "{\"text\":\"what's 6 + 3 ?\"}"
-```
+
 <br>
 Comando para verificar oque a GPU está executando:
 ```
