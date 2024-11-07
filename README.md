@@ -28,9 +28,7 @@ curl -X GET http://127.0.0.1:8000
 <br>
 
 site para baixar os modelos de IA treinados:
-```
 https://huggingface.co/
-```
 <br>
 
 Ferramenta para servir o modelo da IA, baixar ferramenta
