@@ -1,18 +1,24 @@
 Comandos utilizados:
 <br>
 Atualizar o pip
+
 ```
 python.exe -m pip install --upgrade pip
 ```
+
 <br>
 Instalar o fastapi e o uvicorn
+
 ```
 pip install fastapi uvicorn
 ```
+
 <br>
 Exportar todas as dependencias instaladas:
+
 ```
 pip freeze > requeriments.txt
+
 ```
 <br>
 Executar a api:
