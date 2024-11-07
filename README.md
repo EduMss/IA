@@ -47,19 +47,19 @@ https://huggingface.co/meta-llama/Llama-3.2-1B
 
 <br>
 Vou usar um modelo do proprio ollama: 
-```
+
 ollama pull tinyllama
-```
+
 <br>
 servir modelo com ollama:
-```
+
 ollama serve
-```
+
 <br>
 instalando biblioteca ollama no python:
-```
+
 pip install ollama
-```
+
 <br>
 Nova requisição curl:
 
@@ -72,9 +72,9 @@ curl -w "Tempo Total: %{time_total} segundos\n" -X POST http://127.0.0.1:8000 -H
 
 <br>
 Comando para verificar oque a GPU está executando:
-```
+
 nvidia-smi 
-```
+
 <br>
 
 
