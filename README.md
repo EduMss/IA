@@ -38,19 +38,23 @@ curl -X GET http://127.0.0.1:8000
 <br>
 
 site para baixar os modelos de IA treinados:
+
 https://huggingface.co/
 
 <br>
 
 Ferramenta para servir o modelo da IA, baixar ferramenta
+
 https://ollama.com/
 
 Repositorio do ollama no github:
+
 https://github.com/ollama/ollama
 
 <br>
 
 Modelos para depois analisar:
+
 https://huggingface.co/microsoft/OmniParser
 
 https://huggingface.co/openai/whisper-large-v3-turbo
