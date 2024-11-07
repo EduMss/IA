@@ -1,7 +1,7 @@
 Comandos utilizados:
 <br>
 Atualizar o pip
-'''python.exe -m pip install --upgrade pip'''
+```python.exe -m pip install --upgrade pip```
 <br>
 Instalar o fastapi e o uvicorn
 pip install fastapi uvicorn
